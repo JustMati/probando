@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;300;400;500;600;700;800;900&family=Ropa+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Encode Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.loginbox{
+    width: 450px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+.loginbox .avatar{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    color: #777;
+    border-radius: 4px;
+    border: 1px solid #777;
+    margin-bottom: 8px;
+    outline: none;
+}
+.loginbox .btn{
+    width: 100%;
+    background: #2979E5;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form span{
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+form span a{
+    color: #247df1;
+}
+.border{
+    width: 90%;
+    height: 1px;
+    background: #dadde1;
+    margin: 20px auto;
+}
+form button{
+    width: 50%;
+    margin: auto;
+    background: #60c569;
+    padding: 12px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+form button a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
